@@ -1,0 +1,24 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "description": "Notification service for sending order confirmation emails",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "amqplib": "^0.10.3",
+    "nodemailer": "^6.9.7",
+    "axios": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["notification", "email", "nodemailer"],
+  "author": "",
+  "license": "ISC"
+}
